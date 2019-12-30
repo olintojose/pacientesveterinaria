@@ -24,7 +24,53 @@ class NuevaCita extends Component {
                         </div>
                         </div>
 
+                    
+                        <div className="form-group row">
+                            <label className="col-sm-4 col-lg-2 col-form-label">Nombre Dueño</label>
+                        <div className="col-sm-8 col-lg-10">
+                            <input 
+                            Type="text"
+                            className="form-control"
+                            placeholder="Nombre Dueño Mascota"
+                            name="propietario"
+                            />
+                        </div>
+                        </div>
+
+                    
+                        <div className="form-group row">
+                            <label className="col-sm-4 col-lg-2 col-form-label">Fecha</label>
+                        <div className="col-sm-8 col-lg-4">
+                            <input 
+                            Type="date"
+                            className="form-control"
+                            name="fecha"
+                            />
+                        </div>
+                  
+                            <label className="col-sm-4 col-lg-2 col-form-label">Hora</label>
+                        <div className="col-sm-8 col-lg-4">
+                            <input 
+                            Type="time"
+                            className="form-control"
+                            name="hora"
+                            />
+                        </div>
+                        </div>
+
+                        <div className="form-group row">
+                            <label className="col-sm-4 col-lg-2 col-form-label">Sintomas</label>
+                        <div className="col-sm-8 col-lg-10">
+                           <textarea 
+                           className="form-control" 
+                           name="sintmas"
+                           placeholder="Describe los Sintomas"
+                           ></textarea>
+                        </div>
+                        </div>
+
                     </form>
+                    
                 </div>
                 
             </div>
